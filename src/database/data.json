@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "jihad hossain",
+        "email": "abc@gmail.com",
+        "salary": "300",
+        "date": "2020-06-07",
+        "status": "active",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    },
+    {
+        "id": 12,
+        "name": "ali hasan",
+        "email": "xyz@gmail.com",
+        "salary": "300",
+        "date": "2020-06-07",
+        "status": "inactive",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    },
+    {
+        "id": 21,
+        "name": "rofikul islam",
+        "email": "rfk@gmail.com",
+        "salary": "200",
+        "date": "2020-06-07",
+        "status": "active",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    },
+    {
+        "id": 41,
+        "name": "ahsan habib",
+        "email": "abc@gmail.com",
+        "salary": "3200",
+        "date": "2020-06-07",
+        "status": "active",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    },
+    {
+        "id": 14,
+        "name": "ansistor xy",
+        "email": "abc@gmail.com",
+        "salary": "3200",
+        "date": "2020-06-07",
+        "status": "active",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    },
+    {
+        "id": 51,
+        "name": "lo fat",
+        "email": "abc@gmail.com",
+        "salary": "3200",
+        "date": "2020-06-07",
+        "status": "active",
+        "avatar": "https://i.ibb.co/njsh6Ls/icons8-user-96.png"
+    }
+]

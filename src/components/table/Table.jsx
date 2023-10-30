@@ -1,5 +1,6 @@
 import React from "react";
-import { HiOutlinePencilSquare, HiOutlineTrash } from "react-icons/hi2";
+import SingleTable from "./SingleTable";
+import data from "../../database/data";
 const Table = () => {
   return (
     <div className="container mx-auto">
@@ -27,38 +28,9 @@ const Table = () => {
           </tr>
         </thead>
         <tbody className="bg-gray-200">
-          <tr className="bg-gray-50 text-center">
-            <td className="px-16 py-2 flex-row items-center">
-              <img src="#" alt="" />
-              <span className="text-center ml-2 font-semibold">null 4byte</span>
-            </td>
-            <td className="px-16 py-2 ">
-              <span className="">jihadkhan934@gmail.com</span>
-            </td>
-            <td className="px-16 py-2 ">
-              <span className="">3000$</span>
-            </td>
-            <td className="px-16 py-2 ">
-              <span className="">27-12-1997</span>
-            </td>
-            <td className="px-16 py-2 ">
-              <span className="bg-green-500 py-1 text-white px-5 rounded-full">
-                active
-              </span>
-              {/* <span className=""></span> */}
-            </td>
-            <td className="px-16 py-2 flex gap-2 items-center">
-              <button>
-                <HiOutlinePencilSquare
-                  className="hover:text-green-500"
-                  size={25}
-                />
-              </button>
-              <button>
-                <HiOutlineTrash className="hover:text-red-500" size={25} />
-              </button>
-            </td>
-          </tr>
+          {data?.map((item) => (
+            <SingleTable key={item?.id} item={item} />
+          ))}
         </tbody>
       </table>
     </div>
